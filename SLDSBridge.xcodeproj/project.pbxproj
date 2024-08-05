@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAB96C92C60C68700E08294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96C82C60C68700E08294 /* AppDelegate.m */; };
+		BCAB96CC2C60C68700E08294 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96CB2C60C68700E08294 /* SceneDelegate.m */; };
+		BCAB96CF2C60C68700E08294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96CE2C60C68700E08294 /* ViewController.m */; };
+		BCAB96D22C60C68700E08294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAB96D02C60C68700E08294 /* Main.storyboard */; };
+		BCAB96D42C60C68900E08294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAB96D32C60C68900E08294 /* Assets.xcassets */; };
+		BCAB96D72C60C68900E08294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAB96D52C60C68900E08294 /* LaunchScreen.storyboard */; };
+		BCAB96DA2C60C68900E08294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96D92C60C68900E08294 /* main.m */; };
+		BCAB96E42C60C68A00E08294 /* SLDSBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96E32C60C68A00E08294 /* SLDSBridgeTests.m */; };
+		BCAB96EE2C60C68A00E08294 /* SLDSBridgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96ED2C60C68A00E08294 /* SLDSBridgeUITests.m */; };
+		BCAB96F02C60C68A00E08294 /* SLDSBridgeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB96EF2C60C68A00E08294 /* SLDSBridgeUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAB96E02C60C68A00E08294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAB96BC2C60C68700E08294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAB96C32C60C68700E08294;
+			remoteInfo = SLDSBridge;
+		};
+		BCAB96EA2C60C68A00E08294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAB96BC2C60C68700E08294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAB96C32C60C68700E08294;
+			remoteInfo = SLDSBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAB96C42C60C68700E08294 /* SLDSBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLDSBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAB96C72C60C68700E08294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCAB96C82C60C68700E08294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCAB96CA2C60C68700E08294 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BCAB96CB2C60C68700E08294 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BCAB96CD2C60C68700E08294 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCAB96CE2C60C68700E08294 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCAB96D12C60C68700E08294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAB96D32C60C68900E08294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAB96D62C60C68900E08294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCAB96D82C60C68900E08294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAB96D92C60C68900E08294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCAB96DF2C60C68A00E08294 /* SLDSBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLDSBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAB96E32C60C68A00E08294 /* SLDSBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDSBridgeTests.m; sourceTree = "<group>"; };
+		BCAB96E92C60C68A00E08294 /* SLDSBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLDSBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAB96ED2C60C68A00E08294 /* SLDSBridgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDSBridgeUITests.m; sourceTree = "<group>"; };
+		BCAB96EF2C60C68A00E08294 /* SLDSBridgeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDSBridgeUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAB96C12C60C68700E08294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB96DC2C60C68A00E08294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB96E62C60C68A00E08294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAB96BB2C60C68700E08294 = {
+			isa = PBXGroup;
+			children = (
+				BCAB96C62C60C68700E08294 /* SLDSBridge */,
+				BCAB96E22C60C68A00E08294 /* SLDSBridgeTests */,
+				BCAB96EC2C60C68A00E08294 /* SLDSBridgeUITests */,
+				BCAB96C52C60C68700E08294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAB96C52C60C68700E08294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB96C42C60C68700E08294 /* SLDSBridge.app */,
+				BCAB96DF2C60C68A00E08294 /* SLDSBridgeTests.xctest */,
+				BCAB96E92C60C68A00E08294 /* SLDSBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAB96C62C60C68700E08294 /* SLDSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB96C72C60C68700E08294 /* AppDelegate.h */,
+				BCAB96C82C60C68700E08294 /* AppDelegate.m */,
+				BCAB96CA2C60C68700E08294 /* SceneDelegate.h */,
+				BCAB96CB2C60C68700E08294 /* SceneDelegate.m */,
+				BCAB96CD2C60C68700E08294 /* ViewController.h */,
+				BCAB96CE2C60C68700E08294 /* ViewController.m */,
+				BCAB96D02C60C68700E08294 /* Main.storyboard */,
+				BCAB96D32C60C68900E08294 /* Assets.xcassets */,
+				BCAB96D52C60C68900E08294 /* LaunchScreen.storyboard */,
+				BCAB96D82C60C68900E08294 /* Info.plist */,
+				BCAB96D92C60C68900E08294 /* main.m */,
+			);
+			path = SLDSBridge;
+			sourceTree = "<group>";
+		};
+		BCAB96E22C60C68A00E08294 /* SLDSBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB96E32C60C68A00E08294 /* SLDSBridgeTests.m */,
+			);
+			path = SLDSBridgeTests;
+			sourceTree = "<group>";
+		};
+		BCAB96EC2C60C68A00E08294 /* SLDSBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB96ED2C60C68A00E08294 /* SLDSBridgeUITests.m */,
+				BCAB96EF2C60C68A00E08294 /* SLDSBridgeUITestsLaunchTests.m */,
+			);
+			path = SLDSBridgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAB96C32C60C68700E08294 /* SLDSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAB96F32C60C68A00E08294 /* Build configuration list for PBXNativeTarget "SLDSBridge" */;
+			buildPhases = (
+				BCAB96C02C60C68700E08294 /* Sources */,
+				BCAB96C12C60C68700E08294 /* Frameworks */,
+				BCAB96C22C60C68700E08294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLDSBridge;
+			productName = SLDSBridge;
+			productReference = BCAB96C42C60C68700E08294 /* SLDSBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAB96DE2C60C68A00E08294 /* SLDSBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAB96F62C60C68A00E08294 /* Build configuration list for PBXNativeTarget "SLDSBridgeTests" */;
+			buildPhases = (
+				BCAB96DB2C60C68A00E08294 /* Sources */,
+				BCAB96DC2C60C68A00E08294 /* Frameworks */,
+				BCAB96DD2C60C68A00E08294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAB96E12C60C68A00E08294 /* PBXTargetDependency */,
+			);
+			name = SLDSBridgeTests;
+			productName = SLDSBridgeTests;
+			productReference = BCAB96DF2C60C68A00E08294 /* SLDSBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAB96E82C60C68A00E08294 /* SLDSBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAB96F92C60C68A00E08294 /* Build configuration list for PBXNativeTarget "SLDSBridgeUITests" */;
+			buildPhases = (
+				BCAB96E52C60C68A00E08294 /* Sources */,
+				BCAB96E62C60C68A00E08294 /* Frameworks */,
+				BCAB96E72C60C68A00E08294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAB96EB2C60C68A00E08294 /* PBXTargetDependency */,
+			);
+			name = SLDSBridgeUITests;
+			productName = SLDSBridgeUITests;
+			productReference = BCAB96E92C60C68A00E08294 /* SLDSBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAB96BC2C60C68700E08294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BCAB96C32C60C68700E08294 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BCAB96DE2C60C68A00E08294 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BCAB96C32C60C68700E08294;
+					};
+					BCAB96E82C60C68A00E08294 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BCAB96C32C60C68700E08294;
+					};
+				};
+			};
+			buildConfigurationList = BCAB96BF2C60C68700E08294 /* Build configuration list for PBXProject "SLDSBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAB96BB2C60C68700E08294;
+			productRefGroup = BCAB96C52C60C68700E08294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAB96C32C60C68700E08294 /* SLDSBridge */,
+				BCAB96DE2C60C68A00E08294 /* SLDSBridgeTests */,
+				BCAB96E82C60C68A00E08294 /* SLDSBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAB96C22C60C68700E08294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB96D72C60C68900E08294 /* LaunchScreen.storyboard in Resources */,
+				BCAB96D42C60C68900E08294 /* Assets.xcassets in Resources */,
+				BCAB96D22C60C68700E08294 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB96DD2C60C68A00E08294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB96E72C60C68A00E08294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAB96C02C60C68700E08294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB96CF2C60C68700E08294 /* ViewController.m in Sources */,
+				BCAB96C92C60C68700E08294 /* AppDelegate.m in Sources */,
+				BCAB96DA2C60C68900E08294 /* main.m in Sources */,
+				BCAB96CC2C60C68700E08294 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB96DB2C60C68A00E08294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB96E42C60C68A00E08294 /* SLDSBridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB96E52C60C68A00E08294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB96EE2C60C68A00E08294 /* SLDSBridgeUITests.m in Sources */,
+				BCAB96F02C60C68A00E08294 /* SLDSBridgeUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAB96E12C60C68A00E08294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAB96C32C60C68700E08294 /* SLDSBridge */;
+			targetProxy = BCAB96E02C60C68A00E08294 /* PBXContainerItemProxy */;
+		};
+		BCAB96EB2C60C68A00E08294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAB96C32C60C68700E08294 /* SLDSBridge */;
+			targetProxy = BCAB96EA2C60C68A00E08294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAB96D02C60C68700E08294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAB96D12C60C68700E08294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAB96D52C60C68900E08294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAB96D62C60C68900E08294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAB96F12C60C68A00E08294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCAB96F22C60C68A00E08294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAB96F42C60C68A00E08294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLDSBridge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wangyusong.SLDSBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAB96F52C60C68A00E08294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLDSBridge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wangyusong.SLDSBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCAB96F72C60C68A00E08294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wangyusong.SLDSBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLDSBridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SLDSBridge";
+			};
+			name = Debug;
+		};
+		BCAB96F82C60C68A00E08294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wangyusong.SLDSBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLDSBridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SLDSBridge";
+			};
+			name = Release;
+		};
+		BCAB96FA2C60C68A00E08294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wangyusong.SLDSBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLDSBridge;
+			};
+			name = Debug;
+		};
+		BCAB96FB2C60C68A00E08294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wangyusong.SLDSBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLDSBridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAB96BF2C60C68700E08294 /* Build configuration list for PBXProject "SLDSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB96F12C60C68A00E08294 /* Debug */,
+				BCAB96F22C60C68A00E08294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAB96F32C60C68A00E08294 /* Build configuration list for PBXNativeTarget "SLDSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB96F42C60C68A00E08294 /* Debug */,
+				BCAB96F52C60C68A00E08294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAB96F62C60C68A00E08294 /* Build configuration list for PBXNativeTarget "SLDSBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB96F72C60C68A00E08294 /* Debug */,
+				BCAB96F82C60C68A00E08294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAB96F92C60C68A00E08294 /* Build configuration list for PBXNativeTarget "SLDSBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB96FA2C60C68A00E08294 /* Debug */,
+				BCAB96FB2C60C68A00E08294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAB96BC2C60C68700E08294 /* Project object */;
+}
